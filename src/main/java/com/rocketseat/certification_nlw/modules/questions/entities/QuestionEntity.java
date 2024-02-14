@@ -1,9 +1,10 @@
 package com.rocketseat.certification_nlw.modules.questions.entities;
 
 import java.time.LocalDateTime;
-import java.util.UUID;
 import java.util.List;
+import java.util.UUID;
 
+import org.hibernate.annotations.Collate;
 import org.hibernate.annotations.CreationTimestamp;
 
 import jakarta.persistence.Column;
@@ -20,8 +21,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-
-@Entity(name="questions")
+@Entity(name = "questions")
 public class QuestionEntity {
 
     @Id
@@ -39,5 +39,4 @@ public class QuestionEntity {
 
     @CreationTimestamp
     private LocalDateTime createdAt;
-    
 }

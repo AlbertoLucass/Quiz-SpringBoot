@@ -3,7 +3,6 @@ INSERT INTO questions (id, description, technology) VALUES
 ('b0ec9e6b-721c-43c7-9432-4d0b6eb15b01', 'Explique o conceito de polimorfismo em Java.', 'JAVA'),
 ('f85e9434-1711-4e02-9f9e-7831aa5c743a', 'Como lidar com exceções em Java?', 'JAVA');
 
-
 INSERT INTO alternatives (id, question_id, is_correct, description) VALUES
 ('bafdf631-6edf-482a-bda9-7dce1efb1890', 'c5f02721-6dc3-4fa6-b46d-6f2e8dca9c66', true, 'Usando a palavra-chave "class"'),
 ('98f6891b-5f14-4b8e-bb87-46456a2610d4', 'c5f02721-6dc3-4fa6-b46d-6f2e8dca9c66', false, 'Definindo uma interface em Java'),
@@ -21,5 +20,3 @@ INSERT INTO alternatives (id, question_id, is_correct, description) VALUES
 ('d3e51a56-9b97-4bb8-9827-8bcf89f4b276', 'f85e9434-1711-4e02-9f9e-7831aa5c743a', true, 'Utilizando blocos try-catch'),
 ('63c0210c-2a9a-4e93-98ec-8d9f3984e2b0', 'f85e9434-1711-4e02-9f9e-7831aa5c743a', false, 'Declarando uma exceção sem tratamento'),
 ('e4dbf524-0a54-428a-b57c-853996fc8e19', 'f85e9434-1711-4e02-9f9e-7831aa5c743a', false, 'Usando a palavra-chave "finally"');
-
-select * from questions;

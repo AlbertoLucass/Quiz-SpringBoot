@@ -10,19 +10,13 @@
 	</parent>
 	<groupId>com.rocketseat</groupId>
 	<artifactId>certification_nlw</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>certification_nlw</name>
-	<description>Projeto utilizado no NLW</description>
+	<description>Projeto utilizado no NLW </description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
-
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-actuator</artifactId>
-		</dependency>
-
 
 		<dependency>
 			<groupId>org.postgresql</groupId>
@@ -56,6 +50,8 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
+
+		
 	</dependencies>
 
 	<build>
@@ -70,6 +66,7 @@
 							<artifactId>lombok</artifactId>
 						</exclude>
 					</excludes>
+				
 				</configuration>
 			</plugin>
 		</plugins>
